@@ -21,6 +21,8 @@ public record Run(Integer id,
         if(!startedOn.isBefore(completedOn)){
             throw new IllegalArgumentException("Completado antes de haber empezado!!!!!");
         }
+
+
     }
 
 }
